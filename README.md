@@ -24,4 +24,4 @@ Sebelum menjalankan test, pastikan beberapa aplikasi dan tools berikut telah ter
   - [WebdriverIO](https://webdriver.io/)
 
 ## Video
-Berikut adalah rekaman video saat pengujian dijalankan: [WebdriverIO Appium Test Automation | Android wdiodemoapp](https://youtu.be/uz3WQ9OCnDM)
+Berikut adalah rekaman video saat pengujian dijalankan: [Video](https://youtu.be/uz3WQ9OCnDM)
