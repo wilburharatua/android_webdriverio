@@ -34,6 +34,18 @@ class LoginPage {
         await this.loginIcon.waitForDisplayed();
         await this.loginIcon.click();
     }
+    async loginWithValidCredentials() {
+        await this.emailField.setValue(process.env.EMAIL as string);
+        await this.passwordField.setValue(process.env.PASSWORD as string);
+        await this.loginBtn.click();
+    }
+    async signUpWithValidCredentuals() {
+        await this.signUpModule.click();
+        await this.emailField.setValue(process.env.EMAIL as string);
+        await this.passwordField.setValue(process.env.PASSWORD as string);
+        await this.signUpConfirmPassword.setValue(process.env.PASSWORD as string);
+        await this.signUpBtn.click();
+    }
 }
 
 export default new LoginPage();
