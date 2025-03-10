@@ -7,7 +7,7 @@ describe('Login Page', () => {
     beforeEach(async () => {
         await loginPage.openLoginPage();
     });
-
+    
     it('TC001_User melakukan signup', async () => {
         await loginPage.signUpModule.click();
         await loginPage.emailField.setValue(process.env.EMAIL);

@@ -3,6 +3,7 @@ import dragPage from "../pages/dragPage";
 
 
 describe('Drag Page', () => {
+    
     beforeEach(async () => {
         await dragPage.openDragPage();
     });
